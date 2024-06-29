@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="styles_index.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="fade-in-text">E R E B O S     G H E I L     R E G N U M</div>
+    </div>
+    <nav class="vertical-menu">
+        <ul>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="media.html">MEDIA</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="background-image-container">
+            <img src="images/1.png" alt="Erebos Gheil Regnum" class="background-image">
+        </div>
+        <div class="title-image-container">
+            <img src="images/tittlestartscreen.png" alt="Title Erebos Gheil Regnum" class="title-image">
+        </div>
+    </main>
+    <audio id="background-music" loop>
+        <source src="media/Track2.wav" type="audio/wav">
+    </audio>
+    <div id="volume-control">
+        <button id="mute-button">&#x1F50A;</button> <!-- Unicode for speaker symbol -->
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

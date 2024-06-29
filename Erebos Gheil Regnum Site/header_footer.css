@@ -1,0 +1,68 @@
+/* header_footer.css */
+footer {
+    text-align: right;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.2em !important; /* Ensure consistent font size */
+    margin: 0;
+}
+
+/* Common header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul li a:hover {
+    color: white;
+    opacity: 0.5; /* 50% opacity on hover */
+}
+
+.back-arrow {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Center the tabs */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em; /* Increase the size of the tabs */
+    padding: 10px;
+}
+
+nav ul li a.selected {
+    border-bottom: 2px solid #f4f4f4; /* Indicate the selected tab */
+}
